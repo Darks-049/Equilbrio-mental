@@ -1,0 +1,104 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #130046;
+}
+
+header {
+    background-color: #130046;
+    color: #130046;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #130046;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-card {
+    max-width: 300px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-card img {
+    width: 100%;
+    display: block;
+}
+
+.image-card p {
+    padding: 10px;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.actions ul {
+    list-style: disc;
+    margin: 10px 20px;
+    padding: 0;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background: #130046;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.la{
+    color: white;
+    font-weight: bold;
+}
+
+.hot{
+    color: white;
+}
